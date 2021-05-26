@@ -77,8 +77,6 @@ nav{
     left: 0;
     right: 0;
 
-    
-
 }
 
 .header-site-mobile{
@@ -163,4 +161,42 @@ h5{
     padding-top: 30px;
     padding-bottom: 30px;
     color: whitesmoke;
+}
+
+@media screen and (max-width: 420px) {
+
+    #img-quem{ 
+        display: none;
+    }
+
+    #servicos{
+        display: none;
+    }
+
+    #mapa {
+        display: none;
+    }
+
+    #local {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-site{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #wave {
+        display: none;
+     }
+
+     .logo {
+         position: fixed;
+         top: 0;
+     }
 }
