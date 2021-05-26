@@ -1,0 +1,166 @@
+
+nav{
+    display: inline;
+    background-color: black;
+    position: fixed;
+    color: whitesmoke;
+    padding: 15px;
+    width: 100%;
+}
+
+.thumb{
+    height: 200px;
+    width: 400px;
+}
+
+.menu{
+    float: right;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: medium;
+    padding-right: 15px;
+    padding-top: 25px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu a:hover{
+    color: lightgrey;
+}
+
+
+.logo{
+    float: left;
+    padding-left: 5px;
+    width: 50%;
+}
+
+.logo img{
+    height: 50px;
+
+}
+
+.caption{
+
+    padding-top: 20px;
+}
+
+.img-thumbnail{
+    background-color: darkgray;
+    box-shadow: 0.2em 0.2em 0.2em black;
+}
+
+.header-site{
+    background-image: url(img/mesa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    width: 100%;
+    position: relative;
+
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+
+}
+
+.header-site-mobile{
+    background-image: url(img/mesa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    width: 100%;
+}
+
+.content-site{
+    background-image: url(img/mesa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.img-site{
+    background-image: url(img/mesa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.quem-somos{
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: #A9A9A9;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.quem-somos-mobile{
+    background-color: darkgray;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#img-quem img{
+    border-radius: 1%;
+}
+
+h5{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.localizacao{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#local{
+    color: black;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+
+.footer-site{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+}
