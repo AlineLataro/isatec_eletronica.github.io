@@ -196,7 +196,6 @@ h5{
      }
 
      .logo {
-         position: fixed;
-         top: 0;
+         height: 200px;
      }
 }
